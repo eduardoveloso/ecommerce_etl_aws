@@ -1,0 +1,10 @@
+create s3 bucket [x]
+save credentials [x]
+create scripts:
+    get api script []
+    save file into s3 [x]
+    read file []
+    apply etl process []
+    save star schema model into RDS []
+create aiflow dags to orchestration all proccess []
+connect the database into Power Bi []
